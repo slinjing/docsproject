@@ -29,18 +29,18 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://slinjing.github.io/docsproject/',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
+    docsRepo: 'docsproject',
+    docsDir: 'docs',
     // docsBranch: '',
 
     /* 页内信息 */
-    // editLink: true,
+    editLink: true,
     // lastUpdated: true,
-    // contributors: true,
-    // changelog: false,
+    contributors: true,
+    changelog: false,
 
     /**
      * 博客
