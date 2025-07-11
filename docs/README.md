@@ -4,6 +4,7 @@ externalLinkIcon: false
 config:
   -
     type: hero
+    tintPlate: 200
     full: true
     background: tint-plate
     hero:
