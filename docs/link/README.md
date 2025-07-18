@@ -23,14 +23,21 @@ title: 网址导航
 
    
 
-## emoji/icon
+## icon
 :::: card-grid
 ::: card title="iconify" 
 
-[icon-sets.iconify](https://icon-sets.iconify.design/)
+[https://icon-sets.iconify.design](https://icon-sets.iconify.design/)
 :::
 
+::: card title="iconfont" 
 
+[https://www.iconfont.cn](https://www.iconfont.cn/)
+:::
 
+::: card title="fontawesome" 
+
+[https://fontawesome.com](https://fontawesome.com/)
+:::
 
 ::::
