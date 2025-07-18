@@ -39,17 +39,17 @@ export default defineUserConfig({
     // docsBranch: '',
 
     /* 页内信息 */
-    editLink: true,
-    // lastUpdated: true,
-    contributors: {
-      mode: 'block',
-      info: [
-        {
-          username: 'slinjing', // github username
-          alias: ['slinjing'], // 别名，本地 git 配置中的用户名
-        }
-      ]
-    },
+    // editLink: true,
+    // // lastUpdated: true,
+    // contributors: {
+    //   mode: 'block',
+    //   info: [
+    //     {
+    //       username: 'slinjing', // github username
+    //       alias: ['slinjing'], // 别名，本地 git 配置中的用户名
+    //     }
+    //   ]
+    // },
   
 
 
