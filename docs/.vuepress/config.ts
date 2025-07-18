@@ -42,7 +42,7 @@ export default defineUserConfig({
     editLink: true,
     // lastUpdated: true,
     contributors: {
-      mode: 'inline',
+      mode: 'block',
       info: [
         {
           username: 'slinjing', // github username
