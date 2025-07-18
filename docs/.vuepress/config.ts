@@ -51,6 +51,13 @@ export default defineUserConfig({
     //     }
     //   ]
     // },
+    changelog: {
+      maxCount: 10,
+      repoUrl: 'https://github.com/slinjing/docsproject',
+      commitUrlPattern: ':repo/commit/:hash',
+      issueUrlPattern: ':repo/issues/:issue',
+      tagUrlPattern: ':repo/releases/tag/:tag'
+    },
   
 
 
