@@ -47,7 +47,7 @@ export default defineUserConfig({
         {
           username: 'slinjing', // github username
           alias: ['slinjing'], // 别名，本地 git 配置中的用户名
-          // url: 'https://github.com/slinjing',
+          url: 'https://github.com/slinjing',
           // avatar: 'avatar.png'
         }
       ]
