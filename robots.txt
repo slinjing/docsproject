@@ -1,0 +1,3 @@
+Sitemap: https://slinjing.github.io/docsproject/docsproject/sitemap.xml
+User-agent:*
+Disallow:
