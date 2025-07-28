@@ -34,36 +34,15 @@ import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 // })
 
 
-// const docsNote = defineNoteConfig({
-//   dir: 'follow-me-install-kubernetes-cluster',
-//   link: '/notes/follow-me-install-kubernetes-cluster',
-//   sidebar: [
-//     {
-//       text: '指南',
-//       items: [
-//         '/follow-me-install-kubernetes-cluster/README',
-//         '/follow-me-install-kubernetes-cluster/README',
-//         '/follow-me-install-kubernetes-cluster/00.组件版本和配置策略',
-//         { text: '项目', link: '---' }, 
-//         '/follow-me-install-kubernetes-cluster/01.初始化系统和全局变量',
-//         '项目 5',
-//         // ...
-//       ],
-//     },
-//   ]
-// })
-
-// const docsNote = defineNoteConfig({
-//   dir: 'follow-me-install-kubernetes-cluster',
-//   // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
-//   // 如果 前缀不一致，则无法生成侧边栏。
-//   // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
-//   link: '/notes/follow-me-install-kubernetes-cluster',
-//   // 手动配置侧边栏结构
-//   // sidebar: ['', 'docker', 'k8s'],
-//   // 根据文件结构自动生成侧边栏
-//   sidebar: 'auto',
-// })
+const dockerNote = defineNoteConfig({
+  dir: 'docker',
+  // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
+  // 如果 前缀不一致，则无法生成侧边栏。
+  // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
+  link: '/notes/docker',
+  // 根据文件结构自动生成侧边栏
+  sidebar: 'auto',
+})
 
 
 const kubernetesNote = defineNoteConfig({
@@ -72,8 +51,17 @@ const kubernetesNote = defineNoteConfig({
   // 如果 前缀不一致，则无法生成侧边栏。
   // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
   link: '/notes/kubernetes',
-  // 手动配置侧边栏结构
-  // sidebar: ['', 'docker', 'k8s'],
+  // 根据文件结构自动生成侧边栏
+  sidebar: 'auto',
+})
+
+
+const networkNote = defineNoteConfig({
+  dir: 'network',
+  // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
+  // 如果 前缀不一致，则无法生成侧边栏。
+  // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
+  link: '/notes/network',
   // 根据文件结构自动生成侧边栏
   sidebar: 'auto',
 })
@@ -86,5 +74,5 @@ const kubernetesNote = defineNoteConfig({
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [kubernetesNote],
+  notes: [dockerNote, kubernetesNote, networkNote],
 })
